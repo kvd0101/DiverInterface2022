@@ -1365,7 +1365,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d175fac185b643e4587a5ce42be51939, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 351.0536
+      value: 351.1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d175fac185b643e4587a5ce42be51939, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1373,7 +1373,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d175fac185b643e4587a5ce42be51939, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 537.1768
+      value: 536.6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d175fac185b643e4587a5ce42be51939, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2771,15 +2771,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8949d27b55c3c87419cc0dc418b58c2e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 340.36465
+      value: 340.6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8949d27b55c3c87419cc0dc418b58c2e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 16.706825
+      value: 16.7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8949d27b55c3c87419cc0dc418b58c2e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 563.71423
+      value: 563.7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8949d27b55c3c87419cc0dc418b58c2e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -17153,7 +17153,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1024759797}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17162,8 +17162,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 50.070007, y: 10.74}
-  m_SizeDelta: {x: 100.14, y: 12.37}
+  m_AnchoredPosition: {x: 83, y: -10}
+  m_SizeDelta: {x: 500.14, y: 50.37}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1024759799
 MonoBehaviour:
@@ -17178,7 +17178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.16320616, g: 0.05681736, b: 0.1981132, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -17187,7 +17187,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 10
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -20095,8 +20095,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2, y: -14.8}
-  m_SizeDelta: {x: 219.52383, y: 59.477936}
+  m_AnchoredPosition: {x: -206.9, y: 106.5}
+  m_SizeDelta: {x: 519.5238, y: 59.477936}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1180578692
 MonoBehaviour:
@@ -20133,10 +20133,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -20144,7 +20144,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Test
+  m_Text: Hello! Welcome to my Test. The Text is big
 --- !u!222 &1180578694
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -29483,14 +29483,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1733497817}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.1, z: 1}
+  m_LocalRotation: {x: -0.25489816, y: -0.08034601, z: 0.046387803, w: 0.96250695}
+  m_LocalPosition: {x: -1.23, y: -1.05, z: -5.48}
+  m_LocalScale: {x: 5, y: 1, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 697735978}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -28.896, y: -11.752, z: 8.556}
 --- !u!23 &1733497819
 MeshRenderer:
   m_ObjectHideFlags: 0
